@@ -4,7 +4,7 @@ var vegetables = ["Carrots", "Kale", "Zucchini", "Broccoli", "Squash"];
 
 // The number of loops to perform (what if the array changes?)
 
-var loopCount = 5;
+var loopCount = bands.length;
 
 // Keep track of which band we're on in the loop
 
