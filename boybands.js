@@ -48,7 +48,18 @@ for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
   bandElement.appendChild(boyBandP);
 
   // Add the veggie names into the correct <div>
+  // Create block element to place currentVeggie in
+  
+	vegetableP = document.createElement("p");
 
-  currentVeggie = ???;
+	// Place the vegetable at the current index of loopTracker's value into currentVeggie
+  currentVeggie = vegetables[loopTracker];
+
+  // Add the value of currentVeggie to the vegetableP paragraph
+  vegetableP.innerHTML = currentVeggie;
+
+
+  // Add newly created and filled <p> element to veggieElement
+  veggieElement.appendChild(vegetableP);
 
 }
