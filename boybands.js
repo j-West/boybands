@@ -16,7 +16,7 @@ var currentVeggie = "";
 
 // Get a reference to the appropriate DOM element for bands
 
-var bandElement = document.getElementById(???);
+var bandElement = document.getElementById("boy-bands");
 
 // Get a reference to the appropriate DOM element for vegetables
 
