@@ -20,7 +20,14 @@ var bandElement = document.getElementById("boy-bands");
 
 // Get a reference to the appropriate DOM element for vegetables
 
-var veggieElement = ???;
+var veggieElement = document.getElementById("vegetables");
+
+// Moved variable declaration to outside loop so multiple variables do not get 
+// created each time through loop, only value is changed
+
+var boyBandP = "";
+var vegetableP = "";
+
 
 // Start looping
 
