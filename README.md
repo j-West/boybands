@@ -1,6 +1,6 @@
 # Boy bands and vegetables
 
-## Thirteenth exercise in front-end-milestones/the-static-web
+## 13th exercise in front-end-milestones/the-static-web
 
 ### Instructions for exercise
 
